@@ -1,10 +1,23 @@
 {
-    "name": "jquery-file-download",
-    "version": "1.4.6",
-    "description": "jQuery.fileDownload plugin",
-    "author": "John Culviner",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/johnculviner/jquery.fileDownload.git"
-    }
+    "name": "llama-jquery-file-download",
+    "version": "0.1.0",
+    "description": "jQuery File Download is a cross server platform compatible jQuery plugin that allows for an Ajax-like file download experience that is not normally possible using the web.",
+    "author": "XuaNguyen <xuan.0211@gmail.com>",
+    "main": "src/jquery.fileDownload.js",
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^6.2.10",
+        "jquery": ">=1.8.3",
+        "numeral": "^2.0.4",
+        "source-map-loader": "^0.1.6",
+        "webpack": "^1.14.0"
+    },
+    "homepage": "https://github.com/xuanhoa88/jquery.fileDownload.git",
+    "keywords": [
+		"jquery",
+		"llama",
+		"download",
+		"ajax",
+		"iframe"
+	]
 }

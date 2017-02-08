@@ -1,1 +1,1 @@
-module.exports = require('./src/Scripts/jquery.fileDownload');
+module.exports = require('./src/jquery.fileDownload');

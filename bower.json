@@ -1,27 +1,18 @@
 {
-	"name": "jquery-file-download",
+	"name": "llama-jquery-file-download",
 	"description":"jQuery File Download is a cross server platform compatible jQuery plugin that allows for an Ajax-like file download experience that is not normally possible using the web.",
-	"version":"1.4.6",
+	"version":"0.1.0",
 	"keywords": [
+		"jquery",
+		"llama",
 		"download",
-		"ajax"
+		"ajax",
+		"iframe"
 	],
-	"main": "src/Scripts/jquery.fileDownload.js",
+	"main": "src/jquery.fileDownload.js",
 	"ignore": [
 		"**/.gitignore",
-		"**/Common",
-		"**/Content",
-		"**/Controllers",
-		"**/Properties",
-		"**/Scripts/Support",
-		"**/Views",
-		"**/Global.asax",
-		"**/Global.asax.cs",
-		"**/jquery.fileDownload.csproj",
-		"**/jquery.fileDownload.sln",
-		"**/packages.config",
-		"**/Report.pdf",
-		"**/Web.config"
+		"**/packages.json"
 	],
 	"dependencies": {
 		"jquery": ">= 1.6"
